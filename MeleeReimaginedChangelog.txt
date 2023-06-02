@@ -1,0 +1,72 @@
+-*-*-Changelog-*-*-
+
+***General***
+
+- Set default bootup settings to tournament settings (4 stock, time limit, etc.)
+- v1.00 hitlag behavior (allows certain multihits to work properly)
+- Taunt cancelling added (momentum maintained when taunting, cancelled by edge)
+- Automatic L-cancelling (removal of an uninteresting mechanic)
+- Ledge invincibility attrition (limits ledge stalling)
+- Wall bracing (removes wall infinites)
+- Grab infinite removal
+- Throw bug fix (first frame of hitstun is never skipped)
+- Freeze glitch fix (Ice Climbers Side-B bug)
+- Invisible ceiling glitch fix
+- Detection bubbles continue hurtbox collision check (Falcon/Ganon Side-B no longer phases through projectiles)
+- Many characters now have the ability to snap to ledge while traveling upwards during their Up-Bs.
+
+***Characters***
+
+**Bowser**
+
++ Bowser can now mash for significantly more height with Up-B.
++ Flame Cancel ability restored to v1.00 state.
+
+**Captain Falcon**
+
++ Multijab removed, making gentleman execution much simpler.
++ Raptor Boost now enters fall instead of fall special.
++ Side-B now snaps to ledge.
++ Up-B now snaps to ledge while moving upwards.
+
+**Donkey Kong**
+
++ Tie hurtbox removed.
++ Donkey Kong no longer loses charged punch when hit out of Up-B.
+
+**Dr. Mario**
+
+
+
+**Ganondorf**
+
++ Side-B now snaps to ledge.
+= Up-Smash changed to an uppercut move rather than being cloned from Captain Falcon.
++ Up-B now snaps to ledge while moving upwards.
+
+**Ice Climbers**
+
++ Using Up-B as just Popo now gives additional height.
+
+**Kirby**
+
++ Taunting without an ability now grants an ability.
++ Throws are no longer escapable.
+
+**Mewtwo**
+
++ Side-B now changes projectile ownership, making it actually function as a reflector.
++ Tail hurtboxes removed.
+
+**Mr. Game & Watch**
+
++ Fixed a bug where B-Air, N-Air and U-Air were all unable to be L-cancelled.
+= Side-B now uses rightmost digit of damage percentage for its value. If it is 0, the outcome is random.
+
+**Ness**
+
++ PK Thunder no longer disappears upon being hit or dying.
+
+**Samus**
+
++ Charge shot is no longer lost when hit out of Up-B.
