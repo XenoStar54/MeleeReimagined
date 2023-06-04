@@ -1,19 +1,21 @@
 -*-*-Changelog-*-*-
 
+Note: + signs are used to denote buffs. = signs denote tradeoffs or neutral changes. - signs denote nerfs.
+
 ***General***
 
-- Set default bootup settings to tournament settings (4 stock, time limit, etc.)
-- v1.00 hitlag behavior (allows certain multihits to work properly)
-- Taunt cancelling added (momentum maintained when taunting, cancelled by edge)
-- Automatic L-cancelling (removal of an uninteresting mechanic)
-- Ledge invincibility attrition (limits ledge stalling)
-- Wall bracing (removes wall infinites)
-- Grab infinite removal
-- Throw bug fix (first frame of hitstun is never skipped)
-- Freeze glitch fix (Ice Climbers Side-B bug)
-- Invisible ceiling glitch fix
+= Set default bootup settings to tournament settings (4 stock, time limit, etc.)
++ v1.00 hitlag behavior (allows certain multihits to work properly)
+= Taunt cancelling added (momentum maintained when taunting, cancelled by edge)
+= Automatic L-cancelling (removal of an uninteresting mechanic)
+= Ledge invincibility attrition (limits ledge stalling)
+= Wall bracing (removes wall infinites)
+= Grab infinite removal
+= Throw bug fix (first frame of hitstun is never skipped)
+= Freeze glitch fix (Ice Climbers Side-B bug)
+= Invisible ceiling glitch fix
 - Detection bubbles continue hurtbox collision check (Falcon/Ganon Side-B no longer phases through projectiles)
-- Many characters now have the ability to snap to ledge while traveling upwards during their Up-Bs.
++ Universalized jumpsquat to 3 frames for all characters.
 
 ***Characters***
 
@@ -27,7 +29,7 @@
 + Multijab removed, making gentleman execution much simpler.
 + Raptor Boost now enters fall instead of fall special.
 + Side-B now snaps to ledge.
-+ Up-B now snaps to ledge while moving upwards.
++ Down-B now speeds up instead of slowing down on contact with enemies. Ending lag reduced slightly.
 
 **Donkey Kong**
 
@@ -36,22 +38,32 @@
 
 **Dr. Mario**
 
-
++ Weight increased from 100 to 102.
 
 **Ganondorf**
 
+= U-Smash changed to an uppercut move rather than being cloned from Captain Falcon. Reuses Up-Throw animation.
++ N-Air now properly links the first hit into the second. Hitbox sizes increased slightly. Foot sweetspot does slightly more damage.
++ Neutral-B now allows Ganondorf to float for a short while. Uses the Ganon Float code by UnclePunch.
 + Side-B now snaps to ledge.
-= Up-Smash changed to an uppercut move rather than being cloned from Captain Falcon.
-+ Up-B now snaps to ledge while moving upwards.
 
 **Ice Climbers**
 
 + Using Up-B as just Popo now gives additional height.
 
+**Jigglypuff**
+
++ U-Smash hitbox IDs changed to allow the sweetspot to actually hit. Sweetspot given slightly boosted knockback.
+
 **Kirby**
 
 + Taunting without an ability now grants an ability.
 + Throws are no longer escapable.
++ N-Air fixed to allow hitting the strong hitbox at the beginning of the move. Hitbox size increased slightly.
+
+**Link**
+
+- N-Air collisions terminated properly.
 
 **Mewtwo**
 
@@ -62,11 +74,25 @@
 
 + Fixed a bug where B-Air, N-Air and U-Air were all unable to be L-cancelled.
 = Side-B now uses rightmost digit of damage percentage for its value. If it is 0, the outcome is random.
++ Shield size increased from 10.75 to 15 units.
 
 **Ness**
 
 + PK Thunder no longer disappears upon being hit or dying.
 
+**Pichu**
+
++ F-Tilt given increased knockback and electrical properties. Launch angles adjusted to increase potency.
++ D-Air launch angle for sweetspot adjusted to be a spike. Knockback growth of sweetspot slightly increased.
+
+**Roy**
+
++ Dash-Attack active frames edited to match the animation.
+
 **Samus**
 
 + Charge shot is no longer lost when hit out of Up-B.
+
+**Yoshi**
+
++ Dash-Grab hitbox offset changed to make the move functional.
