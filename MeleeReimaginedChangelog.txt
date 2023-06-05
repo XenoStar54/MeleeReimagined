@@ -4,18 +4,22 @@ Note: + signs are used to denote buffs. = signs denote tradeoffs or neutral chan
 
 ***General***
 
-= Set default bootup settings to tournament settings (4 stock, time limit, etc.)
-+ v1.00 hitlag behavior (allows certain multihits to work properly)
-= Taunt cancelling added (momentum maintained when taunting, cancelled by edge)
-= Automatic L-cancelling (removal of an uninteresting mechanic)
-= Ledge invincibility attrition (limits ledge stalling)
-= Wall bracing (removes wall infinites)
-= Grab infinite removal
-= Throw bug fix (first frame of hitstun is never skipped)
-= Freeze glitch fix (Ice Climbers Side-B bug)
-= Invisible ceiling glitch fix
-- Detection bubbles continue hurtbox collision check (Falcon/Ganon Side-B no longer phases through projectiles)
+= Set default bootup settings to tournament settings (4 stock, time limit, etc.).
++ Restored v1.00 hitlag behavior (allows certain multihits to work properly).
+= Taunt cancelling added (momentum maintained when taunting, cancelled by edge).
+= Automatic L-cancelling added (removal of an uninteresting mechanic).
+= Ledge invincibility attrition added (limits ledge stalling).
+= Wall bracing added (removes wall infinites).
+= Grab infinites removed.
+= Throw bug fixed (first frame of hitstun is never skipped).
+= Freeze glitch fixed (Ice Climbers Side-B bug).
+= Invisible ceiling glitch fixed.
+- Detection bubbles continue hurtbox collision check (Falcon/Ganon Side-B no longer phases through projectiles).
 + Universalized jumpsquat to 3 frames for all characters.
++ Removed phantom hits.
++ Removed meteor cancelling.
+= Added Brawl-style airdodges that can be activated with the L button. R performs the Melee-style airdodge.
++ Implemented Brawl/Smash 4/Ultimate bury mechanics wherein strong hits remove opponents from the buried state.
 
 ***Characters***
 
@@ -28,17 +32,26 @@ Note: + signs are used to denote buffs. = signs denote tradeoffs or neutral chan
 
 + Multijab removed, making gentleman execution much simpler.
 + Raptor Boost now enters fall instead of fall special.
-+ Side-B now snaps to ledge.
++ Side-B now snaps to ledge. When hit in the air, aerial Side-B also gives Captain Falcon greater control afterwards.
 + Down-B now speeds up instead of slowing down on contact with enemies. Ending lag reduced slightly.
 
 **Donkey Kong**
 
 + Tie hurtbox removed.
-+ Donkey Kong no longer loses charged punch when hit out of Up-B.
++ Charged Neutral-B is no longer lost when hit out of Up-B.
++ Down-B can be extended by just holding the B button instead of mashing.
 
 **Dr. Mario**
 
 + Weight increased from 100 to 102.
+
+**Falco**
+
++ Falco can now hold the B button to continue firing lasers with Neutral-B.
+
+**Fox**
+
++ Fox can now hold the B button to continue firing lasers with Neutral-B.
 
 **Ganondorf**
 
@@ -49,6 +62,7 @@ Note: + signs are used to denote buffs. = signs denote tradeoffs or neutral chan
 
 **Ice Climbers**
 
+= Added a HUD element for Nana's damage percentage.
 + Using Up-B as just Popo now gives additional height.
 
 **Jigglypuff**
@@ -65,6 +79,18 @@ Note: + signs are used to denote buffs. = signs denote tradeoffs or neutral chan
 
 - N-Air collisions terminated properly.
 
+**Luigi**
+
++ Grounded Side-B always misfires if fully charged.
++ Side-B now takes longer to apply gravity to Luigi after it ends, aiding in horizontal recovery. (Ground)Side-B(3) Asychronous Timer 24 -> 2.
++ Down-B can now gain height by holding the button rather than mashing.
+
+**Mario**
+
+**Marth**
+
+= Alternate costumes given different sword trail colors, per Achilles' code.
+
 **Mewtwo**
 
 + Side-B now changes projectile ownership, making it actually function as a reflector.
@@ -80,10 +106,17 @@ Note: + signs are used to denote buffs. = signs denote tradeoffs or neutral chan
 
 + PK Thunder no longer disappears upon being hit or dying.
 
+**Peach**
+
+= F-Smash weapon is now dependent on the angle input. Up-angled F-Smash uses the pan, Down-angled F-Smash uses the golf club, and neutral F-Smash uses the tennis racket.
++ Side-B now interacts properly with shields.
+
 **Pichu**
 
 + F-Tilt given increased knockback and electrical properties. Launch angles adjusted to increase potency.
 + D-Air launch angle for sweetspot adjusted to be a spike. Knockback growth of sweetspot slightly increased.
+
+**Pikachu**
 
 **Roy**
 
@@ -91,8 +124,19 @@ Note: + signs are used to denote buffs. = signs denote tradeoffs or neutral chan
 
 **Samus**
 
-+ Charge shot is no longer lost when hit out of Up-B.
++ Charged Neutral-B is no longer lost when hit out of Up-B.
+
+**Sheik**
+
++ Down-B now allows Sheik and Zelda to swap instantaneously.
 
 **Yoshi**
 
 + Dash-Grab hitbox offset changed to make the move functional.
++ Up-B given increased control and momentum akin to Smash 4 and onwards.
+
+**Young Link**
+
+**Zelda**
+
++ Down-B now allows Sheik and Zelda to swap instantaneously.
