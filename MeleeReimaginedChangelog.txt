@@ -5,6 +5,7 @@ Note: + signs are used to denote buffs. = signs denote tradeoffs or neutral chan
 ***General***
 
 = Set default bootup settings to tournament settings (4 stock, time limit, etc.).
++ Implemented Universal Controller Fix.
 + Restored v1.00 hitlag behavior (allows certain multihits to work properly).
 = Taunt cancelling added (momentum maintained when taunting, cancelled by edge).
 = Automatic L-cancelling added (removal of an uninteresting mechanic).
@@ -33,12 +34,13 @@ Note: + signs are used to denote buffs. = signs denote tradeoffs or neutral chan
 + Multijab removed, making gentleman execution much simpler.
 + Raptor Boost now enters fall instead of fall special.
 + Side-B now snaps to ledge. When hit in the air, aerial Side-B also gives Captain Falcon greater control afterwards.
++ Up-B can now be B-reversed by holding the control stick in the opposite direction.
 + Down-B now speeds up instead of slowing down on contact with enemies. Ending lag reduced slightly.
 
 **Donkey Kong**
 
 + Tie hurtbox removed.
-+ Charged Neutral-B is no longer lost when hit out of Up-B.
++ Charged Neutral-B is no longer lost when hit out of Up-B. Neutral-B also no longer puts DK into freefall when used in midair.
 + Down-B can be extended by just holding the B button instead of mashing.
 
 **Dr. Mario**
@@ -58,21 +60,27 @@ Note: + signs are used to denote buffs. = signs denote tradeoffs or neutral chan
 = U-Smash changed to an uppercut move rather than being cloned from Captain Falcon. Reuses Up-Throw animation.
 + N-Air now properly links the first hit into the second. Hitbox sizes increased slightly. Foot sweetspot does slightly more damage.
 + Neutral-B now allows Ganondorf to float for a short while. Uses the Ganon Float code by UnclePunch.
-+ Side-B now snaps to ledge.
++ Side-B now snaps to ledge. It now sends opponents straight down when used on the ground (usually setting up a tech chase scenario), akin to Flame Choke, allowing for some followups. The aerial version also meteors opponents, and also has its landing lag on a successful hit reduced to 10 frames from 40. Miss gravity 0.05 -> 0.55, seemingly allowing for quicker descent after the move ends.
 
 **Ice Climbers**
 
 = Added a HUD element for Nana's damage percentage.
-+ Using Up-B as just Popo now gives additional height.
++ Implemented a bug fix for Nana's directional inputs.
++ Both climbers can now share the ledge.
++ Side-B can now gain height by holding the button rather than mashing.
++ Up-B used by just Popo now gives additional height.
 
 **Jigglypuff**
 
 + U-Smash hitbox IDs changed to allow the sweetspot to actually hit. Sweetspot given slightly boosted knockback.
++ Up-B hits last for slightly longer (frame data matches Ultimate).
 
 **Kirby**
 
 + Taunting without an ability now grants an ability.
-+ Throws are no longer escapable.
++ Throws are no longer escapable. Additionally, Kirby can now jump after using U-Throw or F-Throw.
++ Like other characters, charged Neutral-B copy abilities are no longer lost when hit out of other special moves.
++ Dash-Attack no longer falls off ledges. 
 + N-Air fixed to allow hitting the strong hitbox at the beginning of the move. Hitbox size increased slightly.
 
 **Link**
@@ -83,7 +91,6 @@ Note: + signs are used to denote buffs. = signs denote tradeoffs or neutral chan
 
 + Grounded Side-B always misfires if fully charged.
 + Side-B now takes longer to apply gravity to Luigi after it ends, aiding in horizontal recovery. (Ground)Side-B(3) Asychronous Timer 24 -> 2.
-+ Down-B can now gain height by holding the button rather than mashing.
 
 **Mario**
 
@@ -99,12 +106,15 @@ Note: + signs are used to denote buffs. = signs denote tradeoffs or neutral chan
 **Mr. Game & Watch**
 
 + Fixed a bug where B-Air, N-Air and U-Air were all unable to be L-cancelled.
-= Side-B now uses rightmost digit of damage percentage for its value. If it is 0, the outcome is random.
 + Shield size increased from 10.75 to 15 units.
++ Mr. Game & Watch can now hold the B button to continue firing sausages with Neutral-B.
+= Side-B now uses rightmost digit of damage percentage for its value. If it is 0, the outcome is random.
++ Down-B now fills up based on the amount of damage dealt by the absorbed projectile. If the projectile deals 1-8 damage, 1 unit is filled. If the projectile deals 9-12 damage, 2 units are filled. Anything beyond fills 3 units.
 
 **Ness**
 
-+ PK Thunder no longer disappears upon being hit or dying.
++ Neutral-B no longer puts Ness into freefall when used in midair.
++ Up-B projectile no longer disappears upon being hit or dying. It also no longer disappears when hitting another projectile. Ness is able to use Up-B one additional time if he hits a wall during the tackle portion of Up-B.
 
 **Peach**
 
@@ -128,6 +138,8 @@ Note: + signs are used to denote buffs. = signs denote tradeoffs or neutral chan
 
 **Sheik**
 
++ Charged Neutral-B is no longer lost if hit out of Side-B.
++ Up-B now allows for greater aerial movement during vanishing portion of the attack.
 + Down-B now allows Sheik and Zelda to swap instantaneously.
 
 **Yoshi**
@@ -139,4 +151,5 @@ Note: + signs are used to denote buffs. = signs denote tradeoffs or neutral chan
 
 **Zelda**
 
++ Side-B no longer puts Zelda into freefall when used in midair.
 + Down-B now allows Sheik and Zelda to swap instantaneously.
