@@ -4,6 +4,8 @@ Note: + signs are used to denote buffs. = signs denote tradeoffs or neutral chan
 
 ***General***
 
+Note: Many of these mechanics are also present in SD Remix. The most beneficial have been implemented into the base game here.
+
 = Set default bootup settings to tournament settings (4 stock, time limit, etc.).
 + Implemented Universal Controller Fix.
 + Restored v1.00 hitlag behavior (allows certain multihits to work properly).
@@ -19,21 +21,24 @@ Note: + signs are used to denote buffs. = signs denote tradeoffs or neutral chan
 + Universalized jumpsquat to 3 frames for all characters.
 + Removed phantom hits.
 + Removed meteor cancelling.
-= Added Brawl-style airdodges that can be activated with the L button. R performs the Melee-style airdodge.
+= Added Brawl/Smash 4-style airdodges that can be activated with the L button. R performs the Melee-style airdodge.
 + Implemented Brawl/Smash 4/Ultimate bury mechanics wherein strong hits remove opponents from the buried state.
 
 ***Characters***
 
 **Bowser**
 
-+ Bowser can now mash for significantly more height with Up-B.
 + Flame Cancel ability restored to v1.00 state.
++ Grab and Dash-Grab range substantially increased.
++ U-Tilt now has significantly less ending lag (IASA 50 -> 34).
++ D-Tilt now has less startup (14 -> 10) and has significantly reduced ending lag (IASA 55 -> 42). A frame speed modifier of 1.28 is implemented to quicken the attack.
++ Bowser can now mash for significantly more height with Up-B.
 
 **Captain Falcon**
 
 + Multijab removed, making gentleman execution much simpler.
-+ Raptor Boost now enters fall instead of fall special.
-+ Side-B now snaps to ledge. When hit in the air, aerial Side-B also gives Captain Falcon greater control afterwards.
++ U-Air collisions terminate 2 frames later, allowing Captain Falcon to hit the "tipman" hitbox at the end of the move.
++ Side-B now snaps to ledge. When hit in the air, aerial Side-B also gives Captain Falcon greater control afterwards. Aerial Side-B now enters fall instead of fall special after finishing.
 + Up-B can now be B-reversed by holding the control stick in the opposite direction.
 + Down-B now speeds up instead of slowing down on contact with enemies. Ending lag reduced slightly.
 
@@ -45,7 +50,7 @@ Note: + signs are used to denote buffs. = signs denote tradeoffs or neutral chan
 
 **Dr. Mario**
 
-+ Weight increased from 100 to 102.
++ Weight increased (100 -> 102).
 
 **Falco**
 
@@ -57,7 +62,7 @@ Note: + signs are used to denote buffs. = signs denote tradeoffs or neutral chan
 
 **Ganondorf**
 
-= U-Smash changed to an uppercut move rather than being cloned from Captain Falcon. Reuses Up-Throw animation.
+= U-Smash changed to an uppercut move rather than being cloned from Captain Falcon (reuses U-Throw animation).
 + N-Air now properly links the first hit into the second. Hitbox sizes increased slightly. Foot sweetspot does slightly more damage.
 + Neutral-B now allows Ganondorf to float for a short while. Uses the Ganon Float code by UnclePunch.
 + Side-B now snaps to ledge. It now sends opponents straight down when used on the ground (usually setting up a tech chase scenario), akin to Flame Choke, allowing for some followups. The aerial version also meteors opponents, and also has its landing lag on a successful hit reduced to 10 frames from 40. Miss gravity 0.05 -> 0.55, seemingly allowing for quicker descent after the move ends.
@@ -100,8 +105,8 @@ Note: + signs are used to denote buffs. = signs denote tradeoffs or neutral chan
 
 **Mewtwo**
 
-+ Side-B now changes projectile ownership, making it actually function as a reflector.
 + Tail hurtboxes removed.
++ Side-B now changes projectile ownership, making it actually function as a reflector.
 
 **Mr. Game & Watch**
 
