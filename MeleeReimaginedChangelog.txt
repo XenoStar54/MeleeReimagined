@@ -101,7 +101,8 @@ Note: Characters organized by placement on the most recent official Melee tier l
 **Dr. Mario**
 
 + Weight increased (100 -> 102).
-+ Change D-Tilt
+$ Jab 3 altered to a clobbering overhead swipe (reuses forward light item throw animation). Jab hits given ice, fire and electric properties as a reference to Dr. Mario pill colors.
+$ D-Tilt is now a kick (reuses Jab 3 animation). Sweetspot has electrical properties and the move launches outwards (Angle 150 -> 55).
 
 **Ganondorf**
 
@@ -142,7 +143,7 @@ $ Dash-Attack changed to a quick bumping move to give DK a much better burst mov
 **Mewtwo**
 
 + Tail hurtboxes removed.
-+ Side-B now changes projectile ownership, making it actually function as a reflector.
++ Side-B now changes projectile ownership, making it actually function as a reflector. Landing lag reduced (Unsure what this value is 50 -> 20)? Frame speed modifier of 1.28 applied. A fix is implemented such that the move is no longer negative on hit for Mewtwo and works correctly. Side-B throw always has a set knockback of 80 and meteors opponents (Angle 280 -> 270). Opponents can tech when they are slammed to the ground, but if the tech is missed then the opponent is knocked down. Mewtwo now gains considerable followup potential from successfully hitting the move.
 
 **Roy**
 
@@ -161,7 +162,9 @@ $ F-Smash decloned into an brutish overhead sword bash that reuses the high anim
 
 + F-Tilt foot sweetspots given increased knockback and electrical properties (Base Knockback 10 -> 20, Knockback Growth 100 -> 110). Launch angles adjusted to increase potency (Middle-Angled 361 -> 30, Low-Angled 361 -> 340).
 + D-Air launch angle for sweetspot adjusted to be a spike (Angle 361 -> 270). Knockback growth of sweetspot slightly increased (100 -> 120).
-+ Down-B acts similarly to its Ultimate incarnation. Thunder bolt spikes opponents (Angle 94 -> 270) while Pichu's body hitbox launches outwards (Angle 361 -> 35). End lag reduced via a frame speed modifier of 2.1 for the looping and ending portion of the attack.
++ Neutral-B now does more damage (10% -> 13%) and has more base knockback (50 -> 80), but lower knockback growth (30 -> 10). Launch angle of the projectile changed (361 -> 75). Projectile now emerges at a lower angle than Pikachu's in the air (Aerial jolt angle -0.69 -> -1.02), has a higher lifetime (100 -> 120), and has higher aerial velocity (1.5 -> 2.24). Frame speed modifier of 1.54 applied to reduce lag.
++ Up-B has a frame speed modifier of 1.42 to quicken the move.
++ Down-B acts similarly to its Ultimate incarnation. The thunderbolt spikes opponents (Angle 94 -> 270) while Pichu's body hitbox launches outwards (Angle 361 -> 35). End lag reduced via a frame speed modifier of 2.1 for the looping and ending portion of the attack.
 
 **Ness**
 
