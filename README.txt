@@ -7,7 +7,9 @@ Melee Reimagined.
 
 -*-*-Credits-*-*-
 
-PKFreeZZy - Advice, modding assistance, codes
+This mod is built on top of PKFreeZZy's mod, Melee Revision 3. Without him MeleeReimagined would not have been possible.
+
+PKFreeZZy - Advice, modding assistance, codes, Revision 3 code
 UnclePunch - Codes
 Caleb Robinson - Ganon Smash Attacks Backport
 
@@ -16,6 +18,3 @@ Caleb Robinson - Ganon Smash Attacks Backport
 Some interactions and attacks cause warnings in most emulators, but these do not impact the stability of the game.
 To play Melee Reimagined without being interrupted, it is advised to turn these warnings off. For Dolphin, turn off
 Panic Handlers in the Configuration/Interface menu.
-
-Tournament mode has been functionally removed from the game, as its memory has largely been repurposed for more
-useful functions in the battle system.
